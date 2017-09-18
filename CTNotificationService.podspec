@@ -9,5 +9,4 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.ios.deployment_target  = '10.0'
   s.source_files = 'CTNotificationService/*.{m,h}' 
-  s.weak_frameworks = 'UserNotifications'
 end
